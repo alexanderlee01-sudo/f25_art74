@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(04, 04, 04);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    line-height: 0.1;
+    letter-spacing: 8px;
+    color: rgb(182, 182, 182);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    line-height: 0.5;
+    letter-spacing: 8px;
+    color: rgb(146, 146, 146);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: whitesmoke;
+
+}
+
+/* Homepage Image Grid */
+.parent {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1px;
+    place-content: center;
+}
+    
+/* Description Container? */
+.description {
+    display: grid;
+    grid-template-columns: auto 550px auto;
+    gap: 8px;
+    place-content: center;
+}
+
+
+        
